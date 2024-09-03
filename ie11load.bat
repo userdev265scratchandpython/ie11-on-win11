@@ -1,4 +1,8 @@
 @echo off
+cls
+
+echo ie11 reloader for windows(r) 10 and 11
+
 set "fpath=C:\windows\temp"
 set /p fpath="Enter the path to put the temporary file (default is %fpath%, do not put an '\' at the end): "
 
@@ -22,16 +26,24 @@ timeout /t 1 > nul
 
 cls
 
+echo ie11 reloader for windows(r) 10 and 11
+
 echo opening IE11...
 
 :: Run the VBScript with the random color
 cscript //nologo "%fpath%\random_window.vbs" %rand_color%
 
-echo opened IE11, cleaning up...
+echo ie11 was opened.
+echo press any key when ready to clean up.
+pause > nul
+
+echo cleaning up...
 
 del "%fpath%\random_window.vbs"
 
 cls
+
+echo ie11 reloader for windows(r) 10 and 11
 
 echo press any key to quit the terminal
 
