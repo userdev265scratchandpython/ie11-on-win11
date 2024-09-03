@@ -45,10 +45,8 @@ del "%fpath%\random_window.vbs"
 
 cls
 
-echo ie11 reloader for windows(r) 10 and 11
+echo closing the terminal...
 
-echo press any key to quit the terminal
-
-pause > nul
+ping 0.0.0.0 > nul
 
 exit
