@@ -25,7 +25,7 @@ Clear-Host
 Write-Host "Opening IE11..."
 
 # Run the VBScript with the random color
-Start-Process -FilePath "C:\Windows\System32\cscript.exe" -ArgumentList "//nologo", "$fpath\random_window.vbs" -NoWait | Out-Null
+Start-Process -FilePath "C:\Windows\System32\cscript.exe" -ArgumentList "//nologo", "$fpath\random_window.vbs" | Out-Null
 
 Write-Host "Opened IE11, cleaning up..."
 
