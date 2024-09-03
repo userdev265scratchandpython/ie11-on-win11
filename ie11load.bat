@@ -33,6 +33,10 @@ echo opening IE11...
 :: Run the VBScript with the random color
 cscript //nologo "%fpath%\random_window.vbs" %rand_color%
 
+cls
+
+echo ie11 reloader for windows(r) 10 and 11
+
 echo ie11 was opened.
 echo press any key when ready to clean up.
 pause > nul
