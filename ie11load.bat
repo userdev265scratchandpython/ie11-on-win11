@@ -48,3 +48,5 @@ echo ie11 reloader for windows(r) 10 and 11
 echo press any key to quit the terminal
 
 pause > nul
+
+exit
