@@ -10,7 +10,7 @@ enjoy IE11 on windows 11
 
 irm command : 
 ```
-powershell -Command "Invoke-WebRequest -Uri https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/ie11load.bat -OutFile %TEMP%\ie11load.bat" && cmd /c %TEMP%\ie11load.bat && timeout /t 10 > nul && del %TEMP%\ie11load.bat
+powershell -Command "Invoke-WebRequest -Uri https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/ie11load.bat -OutFile %TEMP%\ie11load.bat" && cmd /c %TEMP%\ie11load.bat && del %TEMP%\ie11load.bat
 ```
 
 # more to come soon
