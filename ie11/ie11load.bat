@@ -8,6 +8,11 @@ set /p fpath="Enter the path to put the temporary file (default is %fpath%, do n
 
 title internet explorer
 
+echo path :  %fpath%
+echo press any key to open IE11
+
+pause > nul
+
 echo file writing started
 
 :: Write the VBScript code to a file
