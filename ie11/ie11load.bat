@@ -8,6 +8,10 @@ set /p fpath="Enter the path to put the temporary file (default is %fpath%, do n
 
 title internet explorer
 
+echo wait... data is ready but confirmation is needed.
+timeout /t 1 -nobreak > nul
+
+echo is this correct?
 echo path :  %fpath%
 echo press any key to open IE11
 
