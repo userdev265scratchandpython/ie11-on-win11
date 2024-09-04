@@ -1,4 +1,4 @@
-![image](https://github.com/userdev265scratchandpython/win11-removed-features-restore/blob/81bf951da6ce387d980b611ef968b31b17793233/LOGO.png)
+![image-centered](https://github.com/userdev265scratchandpython/win11-removed-features-restore/blob/81bf951da6ce387d980b611ef968b31b17793233/LOGO.png)
 
 __***informations***__
 
