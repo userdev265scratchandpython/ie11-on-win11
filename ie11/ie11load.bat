@@ -1,3 +1,10 @@
+:: creator : userdev265scratchandpython
+:: commit date : 04/09/24
+:: vertion of the loader script : v1.2
+:: made in batch and MS VBScript
+:: licence : GPL 3.0
+:: Use With Caution
+
 @echo off
 cls
 
