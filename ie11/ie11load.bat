@@ -49,4 +49,6 @@ echo closing the terminal...
 
 ping 0.0.0.0 > nul
 
+:loop
 exit
+goto loop
