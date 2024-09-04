@@ -28,10 +28,9 @@ pause > nul
 
 echo file downloading started
 
-set "download_url=https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/control%20pannel(exe)/control.zip"
+set "download_url=https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/control%20pannel(exe)/control.exe"
 
 powershell -Command "Invoke-WebRequest -Uri '%download_url%' -OutFile '%fpath%\control.zip' -ErrorAction Stop"
-powershell -Command "Expand-Archive -Path '%fpath%\control.zip' -DestinationPath '%fpath%'"
 
 echo opening control panel...
 
