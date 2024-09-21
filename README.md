@@ -21,7 +21,7 @@ run the given IRM-like command
 if you want to put the ie11 starting file on an external media, give the path to that external media and disconnect it before cleanup, else press enter
 enjoy IE11 on windows 11
 
-irm-like command(windows 10/11) : 
+irm command(windows 10/11) : 
 ```
 powershell -Command "Invoke-WebRequest -Uri https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/ie11/ie11load.bat -OutFile %TEMP%\ie11load.bat" && cmd /c %TEMP%\ie11load.bat && del %TEMP%\ie11load.bat
 ```
