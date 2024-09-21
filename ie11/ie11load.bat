@@ -5,6 +5,9 @@
 :: licence : GPL 3.0
 :: Use With Caution
 
+:: set the color to white on black
+color 0f
+
 @echo off
 cls
 
