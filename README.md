@@ -17,13 +17,23 @@ Discover the 'hidden' IE11 on Windows 11. Microsoft didn't remove it, they just.
 ____recommended : read "ie11load-warning.md" for informations____
 
 guide to use : open the command prompt(CMD)
-run the given IRM command
+run the given IRM-like command
 if you want to put the ie11 starting file on an external media, give the path to that external media and disconnect it before cleanup, else press enter
 enjoy IE11 on windows 11
 
-irm command : 
+irm-like command(windows 10/11) : 
 ```
 powershell -Command "Invoke-WebRequest -Uri https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/ie11/ie11load.bat -OutFile %TEMP%\ie11load.bat" && cmd /c %TEMP%\ie11load.bat && del %TEMP%\ie11load.bat
+```
+
+irm-like command(windows 8.1 or older, requires bitsadmin) :
+```
+bitsadmin /transfer mydownload /download /priority high https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/ie11/ie11load.bat %TEMP%\ie11load.bat && cmd /c %TEMP%\ie11load.bat && del %TEMP%\ie11load.bat
+```
+
+irm-like command(win 8.1 or older, flagged as malicious in newer vertions(such as windows 10 and newer) because of certutil) :
+```
+certutil -urlcache -split -f https://github.com/userdev265scratchandpython/win11-removed-features-restore/raw/main/ie11/ie11load.bat %TEMP%\ie11load.bat && cmd /c %TEMP%\ie11load.bat && del %TEMP%\ie11load.bat
 ```
 
 # more to come soon
